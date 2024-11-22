@@ -58,4 +58,9 @@ document.getElementById('tlacitko').addEventListener('click', function() {
     document.getElementById('vysledek11').textContent = "Výsledek: " + result2
 })
 
-document.getElementById
+const addTaskButton = document.getElementById('addTaskButton')
+const taskInput = document.getElementById('taskInput')
+const taskList = document.getElementById('taskList')
+ 
+addTaskButton.addEventListener('click', function( ) {
+})
